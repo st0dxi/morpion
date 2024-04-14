@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/AllPage"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        >
+        <TextView
+            android:text="MORPION"
+            android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/topText"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+        <TextView
+            android:text="Joeur : "
+            android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/joueurText"
+            android:textAlignment="center" />
+        <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridLayout1"
+            android:columnCount="3"
+            android:background="#000"
+            android:rowCount="3">
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout1"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout2"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout3"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout4"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout5"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout6"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout7"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout8"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+            <FrameLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/frameLayout9"
+                android:onClick="morpionClick"
+                android:layout_margin="5px" />
+        </GridLayout>
+            <Button
+                android:text="Rejouer ?"
+                android:id="@+id/rejouer"
+                android:onClick="rejouer"
+                android:layout_width="50px"
+                android:layout_height="50px"/>
+
+    </LinearLayout>
+</RelativeLayout>
